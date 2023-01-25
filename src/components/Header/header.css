@@ -1,11 +1,4 @@
 
-
-* {
-  padding: 0;
-  margin: 0;
-  font-family: roboto;
-}
-
 .header-container {
   width: 100vw;
   height: 25vh;
@@ -60,4 +53,42 @@
   width: 5vw;
   top: 0;
   margin-inline-start: 2vw;
+}
+
+@media (max-width: 1000px) {
+
+  .side-image {
+    height: max-content;
+  }
+
+  .fixed-logo {
+    position: fixed;
+    width: 6vw;
+    top: 0;
+    margin-inline-start: 5vw;
+  }
+
+  .all-texts-container h1 {
+    padding: 0 0 6vh 3vh;
+    font-size: 2rem;
+  }
+  
+
+}
+
+@media (max-width: 600px) {
+
+  .fixed-logo {
+    position: fixed;
+    width: 10vw;
+    top: 0;
+    margin-inline-start: 8vw;
+  }
+
+  .all-texts-container h1 {
+    padding: 0 0 6vh 3vh;
+    font-size: 1.8rem;
+  }
+  
+
 }

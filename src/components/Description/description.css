@@ -1,18 +1,14 @@
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: roboto;
-}
 
 
 .description-container {
   width: 100vw;
-  height: 45vh;
+  /* height: 45vh; */
   background-color: #fda7da;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
   
 }
 
@@ -35,5 +31,36 @@
   font-weight: bold;
   font-size: 2.4rem;
   line-height: 2.5rem;
+  padding-bottom: 1rem;
 
+}
+
+.side-image {
+  height: 50vh;
+}
+
+@media (max-width: 1000px) {
+
+  .side-image {
+    visibility: hidden;
+    width: 0;
+  }
+
+  .description {
+    padding: 2rem;
+    width: 100vw;
+  }
+  
+}
+
+
+@media (max-width: 600px) {
+
+  .description-main {
+    font-size: 1.1rem;
+  }
+  .description-white {
+    font-size: 2rem;
+  
+  }
 }

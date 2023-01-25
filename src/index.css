@@ -16,7 +16,15 @@
 
   
   --color-blue-primary: #000e9f;
+  --color-blue-secondary: #055dee;
   --color-green-light: #0fcacf;
+  --color-yellow: #ffe301;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
 }
 
 a {
