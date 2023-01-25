@@ -1,7 +1,4 @@
-:root {
-  --blue-primary: #000e9f;
-  --light-green: #0fcacf;
-}
+
 
 * {
   padding: 0;
@@ -15,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-color:var(--blue-primary);
+  background-color:var(--color-blue-primary);
   flex-direction: row;
 }
 
@@ -33,13 +30,14 @@
   justify-content: flex-end;
   align-items: flex-start;
   padding: 1vw 2vw;
-  background-color:var(--light-green);
+  background-color:var(--color-green-light);
 }
 
 .blue-text {
-  color: var(--blue-primary);
+  color: var(--color-blue-primary);
   font-weight: 900;
   letter-spacing: 4px;
+  font-size: 1.2rem;
 }
 
 .all-texts-container h1 {
@@ -50,6 +48,7 @@
 .white-text {
   font-weight: 300;
   letter-spacing: 4px;
+  font-size: 1.2rem;
 }
 
 .side-image {
