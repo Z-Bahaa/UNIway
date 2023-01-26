@@ -78,14 +78,19 @@
 
 @media (max-width: 600px) {
 
+  .header-container {
+    height: 16vh;
+  }
+
+
   .fixed-logo {
-    width: 10vw;
+    width: 15vw;
     top: 0;
     margin-inline-start: 8vw;
   }
 
   .all-texts-container h1 {
-    padding: 0 0 6vh 3vh;
+    padding: 0 0 3vh 3vh;
     font-size: 1.8rem;
   }
   

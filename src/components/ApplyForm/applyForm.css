@@ -78,6 +78,7 @@ textarea {
   border: none;
   background-color: white;
   color: black;
+  height: 4rem;
 }
 
 .apply-form-secondary-button {
@@ -136,6 +137,7 @@ textarea {
 
   .apply-form-heading h1{
     font-size: 2rem;
+    font-weight: 800;
   }
 
   
@@ -149,7 +151,7 @@ textarea {
   }
   
 .apply-form-step {
-  min-width: 60vw;
+  min-width: 80vw;
   width: fit-content;
   max-width:80vw;
   height: fit-content;
@@ -159,4 +161,10 @@ textarea {
 .apply-form-step p {
   font-size: small;
 }
+
+
+.apply-form-primary-button {
+  width: 100%;
+}
+
 }
