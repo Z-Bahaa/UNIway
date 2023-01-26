@@ -63,7 +63,6 @@
   }
 
   .fixed-logo {
-    position: fixed;
     width: 6vw;
     top: 0;
     margin-inline-start: 5vw;
